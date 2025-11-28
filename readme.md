@@ -15,7 +15,7 @@ Project 1 - Cas, Utku, Amissa
 |----------------------------------------------------------------------------------------|
 
 ## Projectstructuur volgens CRISP-DM
-1. **Business Understanding**  
+1. **Business Understanding**
    Doel: automatische categorisatie van klachten binnen de juiste expertise met minimaal 90% accuratie
 
 2. **Data Understanding**  
