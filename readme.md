@@ -11,7 +11,7 @@ Project 1 - Cas, Utku, Amissa
 | `klacht_test.csv`     | Dataset testdata 20%                                           |
 | `klacht_train.csv`    | Dataset traindata 80%                                          |
 | `klachten.ipynb`      | Notebook Analyse complete dataset                              |
-| `train_eda.ipynb`     | Notebook traindata                                             |
+| `train.ipynb`         | Notebook traindata                                             |
 |----------------------------------------------------------------------------------------|
 
 ## Projectstructuur volgens CRISP-DM
