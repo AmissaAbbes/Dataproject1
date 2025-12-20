@@ -44,7 +44,8 @@ Project 1 - Cas, Utku, Amissa
    - naive bayes
    - random forest classifier
    - svc
-   - svc calibrated
+   - svc calibrated linear
+   - svc calibrated logistic
 
 5. **Evaluation**  
    Evaluatie van modelprestaties met ....
@@ -76,5 +77,5 @@ Project 1 - Cas, Utku, Amissa
     - Open `train_eda.ipynb` om data understanding en preparation uit te voeren op
       de trainingsdataset.
 3. Gebruik de `klacht_train.csv` & `klacht_test.csv` datasets voor modellering.
-4. Open de model notebooks om voorspellingen en evaluaties uit te voeren.
+4. Open het model notebook om voorspellingen en evaluaties uit te voeren.
 5. Bekijk de PowerPoint en het rapport voor de Data Story.
