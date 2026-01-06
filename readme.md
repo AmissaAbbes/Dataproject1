@@ -38,8 +38,6 @@ Project 1 - Cas, Utku, Amissa
    - pipelines
    - randomizedsearch
    - gridsearch
-
-   - SMOTE
    - logistic regression
    - naive bayes
    - random forest classifier
