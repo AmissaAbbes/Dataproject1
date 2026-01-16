@@ -1,6 +1,9 @@
 # Project-1
 Project 1 - Cas, Utku, Amissa
 
+# Git Repository
+https://github.com/AmissaAbbes/Dataproject1.git
+
 # Klachten verwerkingsmodel
 "Automatische classificatie van klachten binnen de juiste expertise"
 
@@ -34,7 +37,7 @@ Project 1 - Cas, Utku, Amissa
    - tokenizer
 
 4. **Modeling**  
-   Uitgevoerd in `modeling.ipynb`:
+   Uitgevoerd in `modelling.ipynb`:
    - pipelines
    - randomizedsearch
    - gridsearch
@@ -44,9 +47,10 @@ Project 1 - Cas, Utku, Amissa
    - svc
    - svc calibrated linear
    - svc calibrated logistic
+   - confusion matrixes
 
 5. **Evaluation**  
-   Evaluatie van modelprestaties met ....
+   Evaluatie van modelprestaties met F1-scores
 
 6. **Deployment / Data Story**  
    PowerPoint-presentatie en rapport met inzichten.
@@ -70,10 +74,10 @@ Project 1 - Cas, Utku, Amissa
 ## Gebruik:
 1. gebruikt dataset: `klachten.csv`.
 2. installeer en laad bovenstaande libraries in (maak gebruik van een virtual enviroment om conflicten te voorkomen).
-2.  - Open `klachten.ipynb` om data understanding en preparation uit te voeren op de 
+2.  - Open `klachten.ipynb` om data understanding uit te voeren op de 
       complete dataset.
     - Open `train_eda.ipynb` om data understanding en preparation uit te voeren op
       de trainingsdataset.
 3. Gebruik de `klacht_train.csv` & `klacht_test.csv` datasets voor modellering.
-4. Open het model notebook om voorspellingen en evaluaties uit te voeren.
+4. Open het modelling notebook om voorspellingen en evaluaties uit te voeren.
 5. Bekijk de PowerPoint en het rapport voor de Data Story.
