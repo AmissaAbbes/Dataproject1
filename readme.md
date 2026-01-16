@@ -13,7 +13,7 @@ https://github.com/AmissaAbbes/Dataproject1.git
 | `klachten.csv`        | Dataset                                                               |
 | `klacht_test.csv`     | Dataset testdata 20%                                                  |
 | `klacht_train.csv`    | Dataset traindata 80%                                                 |
-| `EDA.ipynb`         | Notebook traindata                                                    |
+| `EDA.ipynb`           | Notebook traindata                                                    |
 | `modelling.ipynb`     | Notebook modellen                                                     |
 | `readme.md`           | Readme file: crisp-dm stappen, notebook omschrijvingen en instructies |
 |-----------------------------------------------------------------------------------------------|
