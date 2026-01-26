@@ -20,17 +20,16 @@ https://github.com/AmissaAbbes/Dataproject1.git
 
 ## Projectstructuur volgens CRISP-DM
 1. **Business Understanding**
-   Doel: automatische categorisatie van klachten binnen de juiste expertise met minimaal 90% accuratie
+   Doel: automatische categorisatie van klachten binnen de juiste expertise met zo hoog mogelijke accuratie
 
 2. **Data Understanding**  
-   Voor volledige dataset uitgevoerd in `klachten.ipynb`:
-   Voor trainingsdata uitgevoerd in `train_eda.ipynb`:
+   Voor trainingsdata uitgevoerd in `EDA.ipynb`:
    - Beschrijving van dataset
    - Visualisaties
    - Eerste observaties
 
 3. **Data Preparation**  
-   Uitgevoerd in `train.ipynb`:
+   Uitgevoerd in `EDA.ipynb`:
    - vectorizer (tdidf en count)
    - lemmatizer
    - tokenizer
@@ -44,15 +43,14 @@ https://github.com/AmissaAbbes/Dataproject1.git
    - naive bayes
    - random forest classifier
    - svc
-   - svc calibrated linear
-   - svc calibrated logistic
    - confusion matrixes
 
 5. **Evaluation**  
    Evaluatie van modelprestaties met F1-scores
 
 6. **Deployment / Data Story**  
-   PowerPoint-presentatie en rapport met inzichten.
+   PowerPoint-presentatie, ethical readiness check en rapport met inzichten.
+   Advies vor implementatie van model in classificatie proces
 
 ## Vereisden:
 - Python 3.x
@@ -73,10 +71,9 @@ https://github.com/AmissaAbbes/Dataproject1.git
 ## Gebruik:
 1. gebruikt dataset: `klachten.csv`.
 2. installeer en laad bovenstaande libraries in (maak gebruik van een virtual enviroment om conflicten te voorkomen).
-2.  - Open `klachten.ipynb` om data understanding uit te voeren op de 
-      complete dataset.
-    - Open `train_eda.ipynb` om data understanding en preparation uit te voeren op
+2.  - Open `EDA.ipynb` om data understanding en preparation uit te voeren op
       de trainingsdataset.
 3. Gebruik de `klacht_train.csv` & `klacht_test.csv` datasets voor modellering.
 4. Open het modelling notebook om voorspellingen en evaluaties uit te voeren.
 5. Bekijk de PowerPoint en het rapport voor de Data Story.
+6. voor verbetering van het model kan de trainingsdata worden uitgebreid met nieuwe klachtomschrijvingen.
